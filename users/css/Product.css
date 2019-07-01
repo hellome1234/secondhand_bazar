@@ -1,0 +1,370 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: arial, helvetica, sans-serif;
+}
+body{
+	background-color: #f4f4f4;
+}
+.main-nav{
+
+  width: 100%;
+
+  background: #5CDB95 ;
+  overflow: hidden;
+}
+
+
+
+.nav-section ul{
+  list-style: none;
+
+ }
+
+.nav-section li {
+
+  float: left;
+
+}
+
+.nav-section a{
+  padding: 12px 12px;
+  color: #f1f1f1;
+  display: block;
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+  width: 60px;
+  
+}
+
+
+/*dropdown*/
+
+.dropdown{
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn{
+  margin-top: 3px;
+  margin-bottom:3px;
+  font-size: 20px;
+  padding: 15px;
+  color: white;
+  background: #5CDB95;
+   border:none;
+  outline: none;
+  cursor: pointer;
+}
+
+.dropdown .dropbtn:hover{
+  background: #5CDB95;
+  color: #50386B;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  width: 160px;
+  background: #EDF5E1;
+}
+
+.dropdown-content a{
+  display: block;
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  float: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover{
+  background: #379683;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+/*dropdown ends*/
+
+/*search button and search box*/
+
+
+.search-bar{
+  margin-right: 15px;
+  float: right;
+  overflow: hidden;
+}
+
+.search-bar input[type="text"]{
+  outline: none;
+margin-top: 10px;
+padding: 7px 10px;
+width: 253px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+margin-right: 50px;
+}
+.search-bar-1{
+  margin-right: -290px;
+  float: right;
+}
+.search-bar-1 button[type="submit"]{
+
+  outline: none;
+margin-top: 11px;
+padding: 7.25px 10px;
+
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
+}
+
+
+/*button section*/
+
+.btn a:hover,
+.show-menu-btn:hover,
+ .hide-menu-btn:hover{
+  color: #50386B;
+ }
+
+
+.show-menu-btn, .hide-menu-btn{
+  color: white;
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: block;
+}
+
+
+.show-menu-btn{
+  margin-right: 15px;
+  float: right;
+}
+
+.show-menu-btn i{
+
+  line-height: 60px;
+
+}
+
+#chk{
+  visibility: none;
+  position: absolute;
+  z-index: -1;
+}
+
+.hide-menu-btn{
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+#chk:checked~ .btn{
+right: 0;
+transition: 0.6s;
+}
+
+
+
+
+.btn{
+  transition: 0.6s;
+text-align: center;
+position: fixed;
+width: 100%;
+height: 100vh;
+top: 0;
+right: -100%;
+background: #333;
+  float: right;
+  padding: 80px 0;
+  line-height: 60px;
+ }
+
+.btn a{
+  color: white;
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0px 20px;
+
+}
+
+
+
+.product-page{
+	margin-top: 95px;
+}
+
+.product-page:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.product-page-1{
+	margin-top: 50px;
+	width: 50%;
+	float: left;
+
+
+}
+
+.logo-1{
+	z-index: -1;
+	position: absolute;
+	margin-top: -73px;
+	margin-left: 13rem;
+	color: green;
+	font-size: 25px;
+	font-weight: 200;
+	text-decoration: underline ;
+}
+.product-page-1 .card{
+	margin-left: 70px;
+	width: 35%;
+	float: left;
+	overflow: hidden;
+box-shadow: 0px 2px 9px black;
+
+}
+.product-page-1 .card-1{
+margin-left: 80px;		
+	width: 35%;
+	float: left;
+	overflow: hidden;
+box-shadow: 0px 2px 9px black;
+
+}
+.product-page-1 .card-2
+{
+	margin-left: 70px;
+    width: 35%;
+    float: left;
+  margin-top: 60px;
+    box-shadow: 0px 2px 9px black;
+    overflow: hidden;
+}
+.product-page-1 .card-3
+{
+	 margin-top: 60px;
+    width: 35%;
+    float: left;
+ margin-left: 80px;		
+    box-shadow: 0px 2px 9px black;
+    overflow: hidden;
+}
+
+.desc-1{
+	text-align: center;
+	text-transform: capitalize;
+	color: green;
+}
+
+.desc-1 h1{
+	font-weight: 200;
+	font-size: 25px;
+
+}
+
+
+.product{
+	box-shadow: 0px 2px 9px black;
+float: left;
+	width: 50%;
+background: white;
+
+}
+
+.img{
+	margin-left: 150px;
+	width: 33%;
+	float: left;
+	overflow: hidden;
+}
+.img img{
+	width: 100%;
+}
+.prod-info{
+	margin-left: 70px;
+	padding: 20px;
+	width: auto;
+	float: left;
+	overflow: hidden;
+}
+
+
+.prod-info li{
+	line-height: 20px;
+	list-style-type: none;
+}
+/*.comment-box{
+	position: absolute;
+	top: 580px;
+	left: 14px;
+	/*}**/
+.comment-box textarea {
+		box-shadow: 0px 2px 9px black;
+border: none;
+   width: 485px;
+    height: 243px;
+margin-top: 10px;
+}
+
+.btn-1{
+	padding: 5px;
+}
+
+.rating{
+	padding: 20px 60px;
+	line-height: 33px;
+	margin-top: 45px;
+box-shadow: 0px 2px 9px black;
+
+}
+
+
+.rating h2{
+	font-size: 20px;
+	font-weight: 200;
+	text-transform: capitalize;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

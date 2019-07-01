@@ -1,0 +1,385 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: arial, helvetica, sans-serif;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: #f4f4f4;
+}
+
+.main-header{
+  width: 100%;
+  height: 55px;
+  overflow: hidden;
+}
+.logo{
+  position: relative;
+  top:15px;
+  left: 5px;
+  float: left;
+  font-size: 25px;
+  text-transform: capitalize;
+color: #5f5f5f;
+}
+
+
+.logo-1{
+  position: relative;
+  float: right;
+  top: 15px;
+  right: 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #5f5f5f;
+
+}
+
+.main-nav{
+
+  width: 100%;
+
+  background: #5CDB95 ;
+  overflow: hidden;
+}
+
+
+
+.nav-section ul{
+  list-style: none;
+
+ }
+
+.nav-section li {
+
+  float: left;
+
+}
+
+.nav-section a{
+  padding: 12px 12px;
+  color: #f1f1f1;
+  display: block;
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+  width: 60px;
+  
+}
+
+
+/*dropdown*/
+
+.dropdown{
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn{
+  margin-top: 3px;
+  margin-bottom:3px;
+  font-size: 20px;
+  padding: 15px;
+  color: white;
+  background: #5CDB95;
+   border:none;
+  outline: none;
+  cursor: pointer;
+}
+
+.dropdown .dropbtn:hover{
+  background: #5CDB95;
+  color: #50386B;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  width: 160px;
+  background: #EDF5E1;
+}
+
+.dropdown-content a{
+  display: block;
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  float: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover{
+  background: #379683;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+/*dropdown ends*/
+
+/*search button and search box*/
+
+
+.search-bar{
+  margin-right: 15px;
+  float: right;
+  overflow: hidden;
+}
+
+.search-bar input[type="text"]{
+  outline: none;
+margin-top: 10px;
+padding: 7px 10px;
+width: 253px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+margin-right: 50px;
+}
+.search-bar-1{
+  margin-right: -290px;
+  float: right;
+}
+.search-bar-1 button[type="submit"]{
+
+  outline: none;
+margin-top: 11px;
+padding: 7.25px 10px;
+
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
+}
+
+
+/*button section*/
+
+.btn a:hover,
+.show-menu-btn:hover,
+ .hide-menu-btn:hover{
+  color: #50386B;
+ }
+
+
+.show-menu-btn, .hide-menu-btn{
+  color: white;
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: block;
+}
+
+
+.show-menu-btn{
+  margin-right: 15px;
+  float: right;
+}
+
+.show-menu-btn i{
+
+  line-height: 60px;
+
+}
+
+#chk{
+  visibility: none;
+  position: absolute;
+  z-index: -1;
+}
+
+.hide-menu-btn{
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+#chk:checked~ .btn{
+right: 0;
+transition: 0.6s;
+}
+
+
+
+
+.btn{
+  transition: 0.6s;
+text-align: center;
+position: fixed;
+width: 30%;
+height: 100vh;
+top: 0;
+right: -100%;
+background: #333;
+  float: right;
+  padding: 80px 0;
+  line-height: 60px;
+ }
+
+.btn a{
+  color: white;
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0px 20px;
+
+}
+
+/*product page*/
+.logo-2{
+margin-left: 65px;
+margin-bottom: 20px;
+text-align: center;
+text-transform: capitalize;
+color: #50386B;
+}
+.product-page{
+  width: 100%;
+  margin-top: 60px;
+
+
+}
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+
+.product-page .card{
+
+  border-radius: 6px;
+  width: 20%;
+  margin-left: 35px;
+margin-right: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   cursor: pointer;
+   float: left;
+   overflow: hidden;
+       margin-bottom: 15px;
+       background-color:#EDF5E1;
+
+}
+
+
+
+
+.product-page-2 .card{
+  margin-top: 30px;
+   border-radius: 6px;
+  width: 20%;
+  margin-left: 35px;
+margin-right: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   cursor: pointer;
+   float: left;
+   overflow: hidden;
+          background-color:#EDF5E1;
+
+}
+
+
+.product-page-1{
+  float: left;
+  overflow: hidden;
+width: 100%;
+margin-top: 65px;
+}
+
+
+
+.product-page-1 .card{
+  border-radius: 6px;
+  width: 20%;
+  margin-left: 35px;
+margin-right: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   cursor: pointer;
+   float: left;
+   overflow: hidden;
+       margin-bottom: 15px;
+              background-color:#EDF5E1;
+
+}
+.product-page-1 .card-1{
+   border-radius: 6px;
+  width: 20%;
+margin-right: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   cursor: pointer;
+   float: left;
+   overflow: hidden;
+
+}
+
+.product-page-1 .card-2{
+   border-radius: 6px;
+  width: 20%;
+margin-right: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   cursor: pointer;
+   float: left;
+   overflow: hidden;
+}
+
+.product-page-1 .card-3{
+   border-radius: 6px;
+  width: 20%;
+margin-right: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   cursor: pointer;
+   float: left;
+   overflow: hidden;
+}
+
+.container{
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.container h1 {
+  font-weight: 200;
+  text-transform: uppercase;
+  
+}
+
+
+.logo-3{
+  color:#50386B;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+
+#edit-btn{
+  font-size: 20px;
+  float: left;
+  overflow: hidden;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+.delete-btn{
+  font-size: 20px;
+  float: right;
+  overflow: hidden;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

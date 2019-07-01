@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial, helvetica ,sans-serif;
+}
+
+
+.box{
+	
+	width: 370px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-80%,-50%);
+	background: black;
+	opacity: 0.7;
+	color: white;
+	padding: 40px;
+	border: none;
+	outline: none;
+
+}
+
+
+.box-1 input[type="text"]{
+	display: inline-block;
+	border:0;
+	outline: none;
+	margin: 20px 5px;
+	padding: 8px 5px;
+	border-radius: 5px;
+	width: 100px;
+	transition: 0.4s;
+	}
+		.box-1 input[type="text"]:focus{
+		width: 150px;
+	}
+
+
+
+
+	.box-2 input[type="text"]{
+	border:0;
+	outline: none;
+	margin: 20px auto;
+	padding: 8px 5px;
+	border-radius: 5px;
+	width: 200px;
+	float: left;
+	transition: 0.4s;
+	}	
+
+	.box-2 input[type="text"]:focus{
+		width: 300px;
+	}
+
+.box-2 p{
+		float:left;
+		margin-top: -14px;
+		font-size: 10px;
+		font-weight: 100;
+	text-transform: capitalize;
+	}
+
+
+.box-3{
+	margin-top: 80px;
+}
+.box-3 input[type="password"]{
+	
+display: inline-block;
+	border:0;
+	outline: none;
+	margin: 20px 5px;
+	padding: 8px 5px;
+	border-radius: 5px;
+	width: 100px;
+	transition: 0.4s;
+	}
+
+	.box-3 input[type="password"]:focus{
+		width: 150px;
+	}
+
+
+	.box-3 p{
+		float:left;
+		margin-top: -14px;
+		font-size: 10px;
+		font-weight: 100;
+	text-transform: capitalize;
+	}
+
+.btn{
+	padding: 10px 15px;
+	margin: 20px 5px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
